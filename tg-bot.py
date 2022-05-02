@@ -3,7 +3,7 @@ from telebot import types
 import scheduleParser
 
 # bot token's
-bot = telebot.TeleBot('1629694294:AAHYfzGekeLBcFTyytQLCw_uy02uUyRYdOY')
+bot = telebot.TeleBot('***') # each bot have unique token
 
 try:
     @bot.message_handler(commands=['start'])
